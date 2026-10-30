@@ -1,13 +1,16 @@
-// Fotografías y mensajes de la ofrenda
 const fotos = [
-    {
-        src: "img/foto1.jpg",
-        descripcion: "Siempre vivirás en mi corazón. Gracias por llenar mi vida de cariño y momentos especiales."
-    },
-    {
-        src: "img/foto2.jpg",
-        descripcion: "Aunque ya no estés conmigo, siempre recordaré tu compañía y todo el amor que me diste."
-    }
+  {
+    src: "img/foto1.jpg",
+    descripcion: "Siempre vivirás en mi corazón. Gracias por llenar mi vida de cariño y momentos especiales"
+  },
+  {
+    src: "img/foto2.jpg",
+    descripcion: "Aunque ya no estés conmigo, siempre recordaré tu compañía y todo el amor que me diste."
+  },
+  {
+    src: "img/foto3.jpg",
+    descripcion: "Gracias por todas las siestas a mi lado, tu paz sigue iluminando mi casa. Siempre te voy a extrañar."
+  }
 ];
 
 // Variables principales
