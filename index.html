@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Ofrenda de Recuerdos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="decoracion-superior">
+            🌼 🕯️ 🎃 🕯️ 🌼
+        </div>
+
+        <header>
+            <p class="subtitulo">DÍA DE MUERTOS · 2 DE NOVIEMBRE</p>
+            <h1>Mi Ofrenda de Recuerdos</h1>
+            <p class="frase">
+                Aunque ya no estén aquí, siempre vivirán en mi corazón.
+            </p>
+        </header>
+
+        <div class="papel-picado">
+            <span>✿</span>
+            <span>💀</span>
+            <span>✿</span>
+            <span>🦋</span>
+            <span>✿</span>
+            <span>💀</span>
+            <span>✿</span>
+        </div>
+
+        <section class="ofrenda">
+
+            <div class="titulo-galeria">
+                <span>🧡</span>
+                <h2>Nuestros recuerdos</h2>
+                <span>🧡</span>
+            </div>
+
+            <div class="galeria">
+
+                <button id="anterior" class="flecha">
+                    &#10094;
+                </button>
+
+                <div class="marco">
+                    <img id="imagenOfrenda" src="img/foto1.jpg"
+                    alt="Fotografía de un recuerdo especial">
+
+                    <div class="indicadores" id="puntos"></div>
+                </div>
+
+                <button id="siguiente" class="flecha">
+                    &#10095;
+                </button>
+
+            </div>
+
+            <div class="descripcion" id="descripcion"></div>
+
+        </section>
+
+        <section class="mensaje">
+            <div class="velas">🕯️ 🌼 🕯️</div>
+
+            <h2>Siempre en mi corazón</h2>
+
+            <p>
+                Esta ofrenda está dedicada a dos compañeros
+                que llenaron mi vida de cariño y momentos especiales.
+                Su recuerdo siempre será parte de mí.
+            </p>
+
+            <div class="velas">🌼 🕯️ 🌼</div>
+        </section>
+
+        <div class="controles">
+            <button id="btnMusica" class="btn-musica">
+                <span id="iconoMusica">▶️</span>
+                <span id="textoMusica">Reproducir música</span>
+            </button>
+        </div>
+
+        <audio id="musica" loop preload="auto">
+            <source src="musica-ofrenda.mp3" type="audio/mpeg">
+            Tu navegador no admite audio HTML5.
+        </audio>
+
+        <footer>
+            <p>🌼 El amor y los recuerdos nunca desaparecen 🌼</p>
+        </footer>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
