@@ -9,7 +9,7 @@ const fotos = [
   },
   {
     src: "img/foto3.jpg",
-    descripcion: "Gracias por todas las siestas a mi lado, tu paz sigue iluminando mi casa. Siempre te voy a extrañar."
+    descripcion: "Te ame toda tu vida, Te extrañare para el resto de la mia."
   }
 ];
 
